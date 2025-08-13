@@ -84,6 +84,7 @@ ol {
 
 .content__list-container {
   position: relative;
+  width: 399px;
   height: 298px;
   overflow-y: auto;
   gap: 30px;
@@ -135,6 +136,8 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  max-width: 390px;
+  overflow-x: hidden;
 }
 
 .search-form__fieldset-title {
